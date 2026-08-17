@@ -26,8 +26,7 @@ demand-forecasting-project/
 │   ├── 02_baseline_forecast.ipynb
 │   └── 03_refined_model.ipynb
 ├── memo/
-│   └── inventory_recommendation.md
-└── requirements.txt
+    └── inventory_recommendation.md
 ```
 
 ## Note on data
