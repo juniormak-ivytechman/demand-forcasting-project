@@ -6,7 +6,7 @@
 
 **Forecast summary.** The chart below shows actual sales for the trailing 180 days against the tuned Prophet forecast for the next 30 days, with a shaded confidence band. Demand ranges from roughly 195 to 240 units through most weekdays and climbs to the mid 280s to low 290s heading into and through weekends, with a visible upward drift across the 30 day window as the model's seasonal and trend components compound. That weekend peak is the one the business should plan stock around inside this forecast horizon; the wider yearly pattern from the EDA notebook also shows this item running higher through the mid year months, worth building into longer range planning beyond this window.
 
-![30-day forecast](../notebooks/final_forecast_plot.png)
+<img width="1680" height="600" alt="final_forecast_plot" src="https://github.com/user-attachments/assets/b621483c-d4f8-46df-8308-5b8ff95dc909" />
 
 **Recommendation.** Based on this forecast, we recommend triggering reorder at 1,723 units of stock remaining, holding 80 units of safety stock, assuming a 7 day supplier lead time. This is built from an average daily demand of 234.8 units and a demand standard deviation of 18.3 units over the test period, targeting roughly a 95 percent service level (Z = 1.65).
 
